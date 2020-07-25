@@ -9,6 +9,8 @@ using UnityEngine.UI;
 using TMPro;
 using UnityEngine.SceneManagement;
 using static UnityEngine.InputSystem.InputAction;
+using System.Linq;
+
 
 public class MainMenuManager : MonoBehaviour
 {
@@ -17,23 +19,23 @@ public class MainMenuManager : MonoBehaviour
 
     [Header("Main Menu buttons")]
     [SerializeField]
-    private GameObject mainMenuButtons;
+    private GameObject mainMenuButtonsParent;
     [SerializeField]
-    private Button firstMainMenuButton;
+    private Button[] mainMenuButtons;
     private bool isShowingMainMenu;
 
     [Header("Gamemodes screen button")]
     [SerializeField]
-    private Button firstGamemodesScreenButton;
+    private GameObject gamemodesScreenButtonsParent;
     [SerializeField]
-    private GameObject gamemodesScreenButtons;
+    private Button[] gamemodesScreenButtons;
     private bool isShowingGamemodesScreenButtons;
 
     [Header("Gamemode 1 buttons")]
     [SerializeField]
-    private Button firstGamemode1Button;
+    private GameObject gamemode1ButtonsParent;
     [SerializeField]
-    private GameObject gamemode1Buttons;
+    private Button[] gamemode1Buttons;
     private bool isShowingGamemode1Buttons;
 
     [Header("Credits")]
@@ -59,9 +61,21 @@ public class MainMenuManager : MonoBehaviour
     {
         AudioManager = AudioManager.Instance;
         ChangeMuteSettings();
-        firstMainMenuButton.Select();
         AudioManager.PlaySound("MenuTrack");
+
+        mainMenuButtons = GetAllChildButtons(mainMenuButtonsParent);
+        gamemodesScreenButtons = GetAllChildButtons(gamemodesScreenButtonsParent);
+        gamemode1Buttons = GetAllChildButtons(gamemode1ButtonsParent);
+
+        mainMenuButtons[0].Select();
     }
+
+
+    Button[] GetAllChildButtons(GameObject parentObject)
+    {
+        return parentObject.GetComponentsInChildren<Button>().Where(x => x != parentObject.GetComponent<Button>()).ToArray();
+    }
+
 
     private void Update()
     {
@@ -86,9 +100,9 @@ public class MainMenuManager : MonoBehaviour
             AudioManager.PlaySound("ClickBack");
 
             //enable and disable screens
-            mainMenuButtons.SetActive(true);
-            gamemodesScreenButtons.SetActive(false);
-            gamemode1Buttons.SetActive(false);
+            mainMenuButtonsParent.SetActive(true);
+            gamemodesScreenButtonsParent.SetActive(false);
+            gamemode1ButtonsParent.SetActive(false);
             creditsObject.SetActive(false);
             howToPlayObject.SetActive(false);
 
@@ -99,7 +113,7 @@ public class MainMenuManager : MonoBehaviour
             isShowingCredits = false;
             isShowingHowToPlay = false;
 
-            firstMainMenuButton.Select();
+            mainMenuButtons[0].Select();
             logo.SetActive(true);
         }
     }
@@ -109,9 +123,9 @@ public class MainMenuManager : MonoBehaviour
         AudioManager.PlaySound("ButtonClick");
 
         //enable and disable screens
-        mainMenuButtons.SetActive(false);
-        gamemodesScreenButtons.SetActive(true);
-        gamemode1Buttons.SetActive(false);
+        mainMenuButtonsParent.SetActive(false);
+        gamemodesScreenButtonsParent.SetActive(true);
+        gamemode1ButtonsParent.SetActive(false);
         creditsObject.SetActive(false);
         howToPlayObject.SetActive(false);
 
@@ -122,7 +136,7 @@ public class MainMenuManager : MonoBehaviour
         isShowingCredits = false;
         isShowingHowToPlay = false;
 
-        firstGamemodesScreenButton.Select();
+        gamemodesScreenButtons[0].Select();
         logo.SetActive(true);
     }
 
@@ -131,9 +145,9 @@ public class MainMenuManager : MonoBehaviour
         AudioManager.PlaySound("ButtonClick");
 
         //enable and disable screens
-        mainMenuButtons.SetActive(false);
-        gamemodesScreenButtons.SetActive(false);
-        gamemode1Buttons.SetActive(true);
+        mainMenuButtonsParent.SetActive(false);
+        gamemodesScreenButtonsParent.SetActive(false);
+        gamemode1ButtonsParent.SetActive(true);
         creditsObject.SetActive(false);
         howToPlayObject.SetActive(false);
 
@@ -144,7 +158,7 @@ public class MainMenuManager : MonoBehaviour
         isShowingCredits = false;
         isShowingHowToPlay = false;
 
-        firstGamemode1Button.Select();
+        gamemode1Buttons[0].Select();
         logo.SetActive(true);
     }
 
@@ -153,9 +167,9 @@ public class MainMenuManager : MonoBehaviour
         AudioManager.PlaySound("ButtonClick");
 
         //enable and disable screens
-        mainMenuButtons.SetActive(false);
-        gamemodesScreenButtons.SetActive(false);
-        gamemode1Buttons.SetActive(false);
+        mainMenuButtonsParent.SetActive(false);
+        gamemodesScreenButtonsParent.SetActive(false);
+        gamemode1ButtonsParent.SetActive(false);
         creditsObject.SetActive(true);
         howToPlayObject.SetActive(false);
 
@@ -175,9 +189,9 @@ public class MainMenuManager : MonoBehaviour
         AudioManager.PlaySound("ButtonClick");
 
         //enable and disable screens
-        mainMenuButtons.SetActive(false);
-        gamemodesScreenButtons.SetActive(false);
-        gamemode1Buttons.SetActive(false);
+        mainMenuButtonsParent.SetActive(false);
+        gamemodesScreenButtonsParent.SetActive(false);
+        gamemode1ButtonsParent.SetActive(false);
         creditsObject.SetActive(false);
         howToPlayObject.SetActive(true);
 
@@ -237,19 +251,6 @@ public class MainMenuManager : MonoBehaviour
         }
 
     }
-
-
-
-
-
-
-
-
-
-
-
-
-
 
     public void QuitGame()
     {

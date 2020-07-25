@@ -11889,12 +11889,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   logo: {fileID: 1700271882816640038}
-  mainMenuButtons: {fileID: 1700271882256779174}
-  firstMainMenuButton: {fileID: 1700271883051214509}
-  firstGamemodesScreenButton: {fileID: 2079652455382332816}
-  gamemodesScreenButtons: {fileID: 2968801763461970585}
-  firstGamemode1Button: {fileID: 1700271881496410436}
-  gamemode1Buttons: {fileID: 1700271881979918222}
+  mainMenuButtonsParent: {fileID: 1700271882256779174}
+  mainMenuButtons: []
+  gamemodesScreenButtonsParent: {fileID: 2968801763461970585}
+  gamemodesScreenButtons:
+  - {fileID: 0}
+  gamemode1ButtonsParent: {fileID: 1700271881979918222}
+  gamemode1Buttons:
+  - {fileID: 0}
   creditsObject: {fileID: 715536203274453499}
   howToPlayObject: {fileID: 4011105183698610334}
   soundButtonText: {fileID: 5687017010079670682}
