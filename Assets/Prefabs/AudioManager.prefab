@@ -1,0 +1,174 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7059180669485801062
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8888044666520004520}
+  - component: {fileID: 6912625592997516207}
+  - component: {fileID: 4143340380405457841}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8888044666520004520
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7059180669485801062}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6912625592997516207
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7059180669485801062}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1c038a24cdd9482498f3e54cfc535ad2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sounds:
+  - name: ButtonClick
+    clip: {fileID: 8300000, guid: fa681bd944b5d374092ed8fa4fe2ef7c, type: 3}
+    volume: 1
+    pitch: 1
+    randomVolume: 0
+    randomPitch: 0
+    loop: 0
+  - name: LevelTrack
+    clip: {fileID: 8300000, guid: 58ff4bba63bda1448adb09e5370fe8b6, type: 3}
+    volume: 0.5
+    pitch: 1
+    randomVolume: 0
+    randomPitch: 0
+    loop: 1
+  - name: MenuTrack
+    clip: {fileID: 8300000, guid: f4312810bfc43574794855ecd60f2ffb, type: 3}
+    volume: 0.5
+    pitch: 1
+    randomVolume: 0
+    randomPitch: 0
+    loop: 1
+  - name: PlayerSkillDash
+    clip: {fileID: 8300000, guid: 2e00aa8ac083e664c8c94fe4f7b3017e, type: 3}
+    volume: 1
+    pitch: 1
+    randomVolume: 0
+    randomPitch: 0
+    loop: 0
+  - name: PlayerSkillFloatJump
+    clip: {fileID: 8300000, guid: f8a068cc646fb63408a566edd315cc65, type: 3}
+    volume: 1
+    pitch: 1
+    randomVolume: 0
+    randomPitch: 0
+    loop: 0
+  - name: PlayerSkillJump
+    clip: {fileID: 8300000, guid: 36d50c628a69f304d9ace84d51a21009, type: 3}
+    volume: 0.3
+    pitch: 1
+    randomVolume: 0
+    randomPitch: 0.1
+    loop: 0
+  - name: PlayerSkillPush
+    clip: {fileID: 8300000, guid: bfc5a0585461b2f4097577cb083079e9, type: 3}
+    volume: 1
+    pitch: 1
+    randomVolume: 0
+    randomPitch: 0
+    loop: 0
+  - name: PlayerSkillSuperJump
+    clip: {fileID: 8300000, guid: ee057d536b4e892408e78a516a45065a, type: 3}
+    volume: 1
+    pitch: 1
+    randomVolume: 0
+    randomPitch: 0
+    loop: 0
+  - name: EndOfLevel
+    clip: {fileID: 8300000, guid: 2eb7ef32bbb2d3d43adee8e1c5967687, type: 3}
+    volume: 1
+    pitch: 1
+    randomVolume: 0
+    randomPitch: 0
+    loop: 0
+  - name: CollectibleCollected
+    clip: {fileID: 8300000, guid: f14cf9fca217e2240b839214d5125af0, type: 3}
+    volume: 1
+    pitch: 1
+    randomVolume: 0
+    randomPitch: 0
+    loop: 0
+  - name: ClickBack
+    clip: {fileID: 8300000, guid: d230a9a8e661b694b8cf3d9fc7c66b38, type: 3}
+    volume: 1
+    pitch: 1
+    randomVolume: 0
+    randomPitch: 0
+    loop: 0
+  - name: SpikeHit
+    clip: {fileID: 8300000, guid: e3a5f43caa1ee5a4ab73fd2e66268223, type: 3}
+    volume: 1
+    pitch: 1
+    randomVolume: 0
+    randomPitch: 0
+    loop: 0
+  - name: CollectibleRotten
+    clip: {fileID: 8300000, guid: 7552aa5726ed24749aa05b1a8ed7ff6e, type: 3}
+    volume: 1
+    pitch: 1
+    randomVolume: 0
+    randomPitch: 0
+    loop: 0
+  - name: PowerUpCollected
+    clip: {fileID: 8300000, guid: a184479385684864b86f2d2dfd071a31, type: 3}
+    volume: 1
+    pitch: 1
+    randomVolume: 0
+    randomPitch: 0
+    loop: 0
+  - name: PlayerSelected
+    clip: {fileID: 8300000, guid: 8b09177567242794abefbddd5f73cac2, type: 3}
+    volume: 1
+    pitch: 1
+    randomVolume: 0
+    randomPitch: 0
+    loop: 0
+  - name: Hole
+    clip: {fileID: 8300000, guid: bb591364958eb174387b1c79fdb89152, type: 3}
+    volume: 1
+    pitch: 1
+    randomVolume: 0
+    randomPitch: 0
+    loop: 0
+  - name: IcePowerUp
+    clip: {fileID: 8300000, guid: 5301fe5ed99eb994cb3ac70080e6a39f, type: 3}
+    volume: 1
+    pitch: 1
+    randomVolume: 0
+    randomPitch: 0
+    loop: 0
+--- !u!81 &4143340380405457841
+AudioListener:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7059180669485801062}
+  m_Enabled: 1

@@ -1,0 +1,647 @@
+fileFormatVersion: 2
+guid: 6cef7410fd1aacc43b83e6b1a56456f0
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3664912713421212079
+    second: EnvironmentTiles_0
+  - first:
+      213: 1432828397076365338
+    second: EnvironmentTiles_1
+  - first:
+      213: 4302061506145216713
+    second: EnvironmentTiles_2
+  - first:
+      213: 6467657952502602999
+    second: EnvironmentTiles_3
+  - first:
+      213: 315040486241938570
+    second: EnvironmentTiles_4
+  - first:
+      213: -1233313926935017664
+    second: EnvironmentTiles_5
+  - first:
+      213: -3457981675362594510
+    second: EnvironmentTiles_6
+  - first:
+      213: 4893051811563141638
+    second: EnvironmentTiles_7
+  - first:
+      213: -1608140288224960010
+    second: EnvironmentTiles_8
+  - first:
+      213: 837363059107805369
+    second: EnvironmentTiles_9
+  - first:
+      213: -106051574222202057
+    second: EnvironmentTiles_10
+  - first:
+      213: 6311334904373257924
+    second: EnvironmentTiles_11
+  - first:
+      213: 7038427745220273038
+    second: EnvironmentTiles_12
+  - first:
+      213: -2631995151666266772
+    second: EnvironmentTiles_13
+  - first:
+      213: 835016333247802706
+    second: EnvironmentTiles_14
+  - first:
+      213: 1772392616686409920
+    second: EnvironmentTiles_15
+  - first:
+      213: -9020331644587489931
+    second: EnvironmentTiles_16
+  - first:
+      213: 8114638882769167669
+    second: EnvironmentTiles_17
+  - first:
+      213: 8437625171889290705
+    second: EnvironmentTiles_18
+  - first:
+      213: 2754443183972844013
+    second: EnvironmentTiles_19
+  - first:
+      213: 5628868291780923302
+    second: EnvironmentTiles_20
+  - first:
+      213: 5347860036523102741
+    second: EnvironmentTiles_21
+  - first:
+      213: -3533837377566483297
+    second: EnvironmentTiles_22
+  - first:
+      213: 4156295671783462045
+    second: EnvironmentTiles_23
+  - first:
+      213: 2148627562095957092
+    second: EnvironmentTiles_24
+  - first:
+      213: -4544347410539581437
+    second: EnvironmentTiles_25
+  - first:
+      213: 3009097840853254965
+    second: EnvironmentTiles_26
+  - first:
+      213: 6435553660588597212
+    second: EnvironmentTiles_27
+  - first:
+      213: -8688794270830166175
+    second: EnvironmentTiles_28
+  - first:
+      213: -8105822044453750792
+    second: EnvironmentTiles_29
+  - first:
+      213: -2208582850023403080
+    second: EnvironmentTiles_30
+  - first:
+      213: -439837099812025458
+    second: EnvironmentTiles_31
+  - first:
+      213: -4800415224603891555
+    second: EnvironmentTiles_32
+  - first:
+      213: -9010440647182947279
+    second: EnvironmentTiles_33
+  - first:
+      213: 7075157635447733941
+    second: EnvironmentTiles_34
+  - first:
+      213: -1390491591514938338
+    second: EnvironmentTiles_35
+  - first:
+      213: -7331408030407273855
+    second: EnvironmentTiles_36
+  - first:
+      213: 4275676472314921907
+    second: EnvironmentTiles_37
+  - first:
+      213: -9187727387231973255
+    second: EnvironmentTiles_38
+  - first:
+      213: -5394141195247450756
+    second: EnvironmentTiles_39
+  - first:
+      213: 8106355502051867015
+    second: EnvironmentTiles_40
+  - first:
+      213: 8826185679857335839
+    second: EnvironmentTiles_41
+  - first:
+      213: -3940642410911145041
+    second: EnvironmentTiles_42
+  - first:
+      213: -850349700571325123
+    second: EnvironmentTiles_43
+  - first:
+      213: 6942285096075252257
+    second: EnvironmentTiles_44
+  - first:
+      213: 5627099025452405937
+    second: EnvironmentTiles_45
+  - first:
+      213: 1851743503496318813
+    second: EnvironmentTiles_46
+  - first:
+      213: -2499176778348385475
+    second: EnvironmentTiles_47
+  - first:
+      213: -4298337376380837111
+    second: EnvironmentTiles_48
+  - first:
+      213: 6748692862904555371
+    second: EnvironmentTiles_49
+  - first:
+      213: 8894956159118581227
+    second: EnvironmentTiles_50
+  - first:
+      213: -3381370357004178776
+    second: EnvironmentTiles_51
+  - first:
+      213: 1541016532113658451
+    second: EnvironmentTiles_52
+  - first:
+      213: 8648048688505427832
+    second: EnvironmentTiles_53
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 64
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: EnvironmentTiles_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 768
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15637bffd4d932dc0800000000000000
+      internalID: -3664912713421212079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnvironmentTiles_1
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 768
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1044dfe5dd62e310800000000000000
+      internalID: 1432828397076365338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnvironmentTiles_2
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 768
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c8eaa3852ef3bb30800000000000000
+      internalID: 4302061506145216713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnvironmentTiles_3
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 768
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fcd5a304acb1c950800000000000000
+      internalID: 6467657952502602999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnvironmentTiles_4
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 768
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8c215037af3f5400800000000000000
+      internalID: 315040486241938570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnvironmentTiles_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 512
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0470f70948362eee0800000000000000
+      internalID: -1233313926935017664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnvironmentTiles_6
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 512
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 231d338ccf7c200d0800000000000000
+      internalID: -3457981675362594510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnvironmentTiles_7
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 512
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60a7dc7b2bc97e340800000000000000
+      internalID: 4893051811563141638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnvironmentTiles_8
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 512
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f16b5b9decbea9e0800000000000000
+      internalID: -1608140288224960010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnvironmentTiles_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 256
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b8b7260449ee9b00800000000000000
+      internalID: 837363059107805369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnvironmentTiles_10
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 256
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73b5d96b7aa378ef0800000000000000
+      internalID: -106051574222202057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnvironmentTiles_11
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 256
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c621b918ad569750800000000000000
+      internalID: 6311334904373257924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnvironmentTiles_12
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 256
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e83ab1b3eb48da160800000000000000
+      internalID: 7038427745220273038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnvironmentTiles_13
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6db16eba56497bd0800000000000000
+      internalID: -2631995151666266772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnvironmentTiles_14
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25d62e45ee2969b00800000000000000
+      internalID: 835016333247802706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnvironmentTiles_15
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 0
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c85e10c1bdc89810800000000000000
+      internalID: 1772392616686409920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnvironmentTiles_16
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 0
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 575c528392851d280800000000000000
+      internalID: -9020331644587489931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

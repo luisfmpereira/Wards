@@ -1,0 +1,66 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Ground
+  - LevelCanvas
+  - Collectible
+  - PushCollider
+  - VictoryCanvas
+  - Magnet
+  - MagnetCollider
+  - Spring
+  - Spike
+  - Smoke
+  - Ice
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - Player
+  - Ground
+  - PowerUpColliders
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Background
+    uniqueID: 151010677
+    locked: 0
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Level
+    uniqueID: 41793903
+    locked: 0
+  - name: Players
+    uniqueID: 3463991229
+    locked: 0
+  - name: Collectibles
+    uniqueID: 93755915
+    locked: 0
